@@ -1,0 +1,44 @@
+.opened {
+    display: flex;
+}
+
+.closed {
+    display: none;
+}
+
+.modal-info-video {
+    width: 30vw;
+    height: 45vh;
+    border: 1px solid black;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    margin-top: 12px;
+}
+
+.close-icon {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+    scale: 1.1
+}

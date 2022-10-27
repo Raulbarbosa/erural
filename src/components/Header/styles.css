@@ -1,0 +1,47 @@
+.content-header {
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+
+    position: relative;
+
+    border-bottom: 1px solid lightgray;
+    padding: 0 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.area-logo-create-room {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.area-create-room {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 118px;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.area-create-room span {
+    color: #28B463;
+}
+
+.area-create-room:hover {
+    background-color: lightgray;
+    scale: 1.01;
+}
+
+.area-create-room span {
+    font-size: 18px;
+}

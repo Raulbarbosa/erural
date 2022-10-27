@@ -1,0 +1,20 @@
+input {
+    all: unset;
+
+    color: black;
+    border: 1px solid #222525;
+
+    height: 40px;
+    max-width: 25vw;
+    width: 25vw;
+    padding: 4px 12px;
+    margin-top: 24px;
+
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+input:focus {
+    scale: 1.05;
+    border: 1px solid #28B463;
+}
